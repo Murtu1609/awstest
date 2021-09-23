@@ -1,0 +1,7 @@
+type,from_port,to_port,protocol,cidr_blocks,sg
+ingress,3389,3389,tcp,0.0.0.0/0,app
+ingress,3389,3389,tcp,192.168.1.0/24,app
+ingress,22,22,tcp,0.0.0.0/0,app
+ingress,3389,3389,tcp,0.0.0.0/0,web
+ingress,3389,3389,tcp,0.0.0.0/0,db
+ingress,22,22,tcp,0.0.0.0/0,web

@@ -1,0 +1,1 @@
+name,image,ostype,key_name,instance_type,sgs,subnet,root_disk_size,additional_disks,ip,public-ip,role-tag,platform-tag,userdata
